@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 
-FILE_PATH = "data/C2E040.json"
+FILE_PATH = "data/C2E034.json"
 
 f = open(FILE_PATH, "r")
 data = json.load(f)
