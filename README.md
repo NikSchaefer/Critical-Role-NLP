@@ -43,6 +43,10 @@ We use a sparse categorical crossentropy loss because we are labeling the logits
 Finally after we have trained our model we aim to generate a script. To acomplish this we take a starting value of `MATT:` and plug it into our model to predict one letter at a time and then to continue to predict on the new text with the data. This process is repeated many times to generate a full script. First we define a mask to catch any faulty text from being generated. Then we run the convert the input into tensors by mapping it through our StringLookup. We then run the input through the models layers and make sure to save the state. We then repeat this process enough times to generate a full script.
 
 
+## Dataset
+
+Trained on the "Critical Role Dataset" on github (https://github.com/RevanthRameshkumar/CRD3)
+
 ## File Structure
 
 ```
