@@ -49,7 +49,7 @@ Trained on the "Critical Role Dataset" on github (https://github.com/RevanthRame
 
 ## File Structure
 
-```
+```py
 /data
 /generated
 generated.txt
