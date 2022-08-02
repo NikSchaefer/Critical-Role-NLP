@@ -22,6 +22,24 @@ Then run `main.py`
 py main.py
 ```
 
+## Generated
+
+see `/generated` for the generated files. Feel free to add your own if you run the script
+
+The text below was generated with an input of "MATT: ". It aims to predict what comes next.
+
+```py
+MATT: That ends your turn?
+
+MARISHA: Yep.
+
+MATT: All righty, where do you want it to go?
+
+LAURA: Wait. Wouldn't it be funny if that was
+Marius?
+...
+```
+
 
 ## How it works
 
