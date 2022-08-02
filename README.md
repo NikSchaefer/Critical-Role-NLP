@@ -28,7 +28,7 @@ see `/generated` for the generated files. Feel free to add your own if you run t
 
 The text below was generated with an input of "MATT: ". It aims to predict what comes next.
 
-```py
+```shell
 MATT: That ends your turn?
 
 MARISHA: Yep.
